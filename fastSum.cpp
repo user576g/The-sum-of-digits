@@ -18,10 +18,12 @@ inline void setArValue(unsigned char* ar, unsigned long long val) {
 
 int main() {
 	unsigned long long A, B;
-	cin >> A >> B;
-
-	if (A > B) {
-		cout << 0;
+	cout << "\n\nInput first number of range: ";
+	cin >> A;
+	cout << "Input last number of range: ";
+	cin >> B;
+	if (A > B){
+		cout << "Last number can`t be less than first\n\n";
 		return 0;
 	}
 
@@ -113,5 +115,5 @@ int main() {
 	}
 	for (int k = (n - countB); k < n; ++k)
 		sum += arCount[k];
-	cout << sum;
+	cout << "The sum of digits of all numbers in range: " << sum << "\n\n";
 }
