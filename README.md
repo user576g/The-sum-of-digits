@@ -19,5 +19,5 @@ Using these properties of number ranges, I wrote second program, that calculate 
 Source code this program is in file fastSum.cpp Compile it and try to get sum for range from 0 to 1000000000000.
 Is it more faster than first program, isn't?
 
-So, this problem is good example how we can create more better algorithms using mathematical and logic methods.
+So, this problem is good example how we can create more better algorithms using mathematical and logical methods.
 https://github.com/user576g/The-sum-of-digits/blob/master/solved!.JPG
