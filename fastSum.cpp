@@ -116,4 +116,9 @@ int main() {
 	for (int k = (n - countB); k < n; ++k)
 		sum += arCount[k];
 	cout << "The sum of digits of all numbers in range: " << sum << "\n\n";
+
+    	cout << "Press any number and Enter to continue...";
+	char s[201];
+    	cin >> s;
+    	cout << "\n\n";
 }
